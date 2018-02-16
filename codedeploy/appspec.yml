@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /usr/local/rails
+    destination: /usr/local/blank
 permissions:
-  - object: /usr/local/rails
+  - object: /usr/local/blank
     owner: centos
     group: centos
   AfterInstall:
